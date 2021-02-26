@@ -1,5 +1,5 @@
-html{
-    font-size: 20px;
+html {
+  font-size: 20px;
 }
 body {
   background: #222;
@@ -11,19 +11,25 @@ section {
   float: left;
   margin: 1%;
   padding: 1.5rem;
-
 }
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
+}
+sup {
+  font-size: 10px;
+  color: black;
+}
+.red {
+  color: red;
 }
 
 @media (min-width: 360px) {
   body {
     background: green;
   }
-  section{
-      width: 48%;
+  section {
+    width: 48%;
   }
 }
 
@@ -31,8 +37,8 @@ img{
   body {
     background: red;
   }
-  section{
-      width: 31.33%;
+  section {
+    width: 31.33%;
   }
 }
 
@@ -40,7 +46,7 @@ img{
   body {
     background: yellow;
   }
-  section{
-      width: 23%;
+  section {
+    width: 23%;
   }
 }
